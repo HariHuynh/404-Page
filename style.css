@@ -116,3 +116,35 @@ button{
   text-align: center;
   color:#181828;
 }
+
+.error__nav {
+  max-width: 600px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.error__form{
+  position: relative;
+  height: 45px;
+  width: 170px;
+  overflow: hidden;
+
+  display: inline-block;
+  vertical-align: top;
+  border:1px solid #212121;
+  padding-left:10px;
+  padding-right:46px;
+
+}
+
+.error__icon{
+  position: absolute;
+  right:15px;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color:#212121;
+  -webkit-transition: color .25s ease;
+  transition:color .25s ease;
+
+}
