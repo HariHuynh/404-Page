@@ -78,9 +78,6 @@ button{
   cursor:pointer;
 }
 
-:focus {
-  outline: 0;
-}
 
 
 .error{
@@ -147,4 +144,33 @@ button{
   -webkit-transition: color .25s ease;
   transition:color .25s ease;
 
+}
+
+/* 3. RESPONSIVE */
+/***********************************/
+
+.error{
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+@media(max-width:1400px){
+  .lamp{
+    zoom:0.7;
+  }
+  .error__content{
+    top:60%;
+  }
+  .message__title{
+    font-size:3.5em;
+  }
+}
+
+@media(max-width:900px){
+  .message__title{
+    font-size:34px;
+  }
+  .error__content{
+    top:60%;
+  }
 }
