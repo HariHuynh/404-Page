@@ -147,7 +147,7 @@ button {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 5px;
-   font-size: 5.6rem;
+   font-size: 5rem;
   padding-bottom: 40px;
   max-width: 960px;
   margin: 0 auto;
@@ -342,13 +342,13 @@ button {
 }
 @media (max-width: 1400px) { 
   .lamp {
-    zoom: .7;
+    zoom: .5;
   }
   .error__content {
     top: 60%;
   }
   .message__title {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 900px) {
@@ -401,10 +401,12 @@ button {
     padding-bottom: 100px;
     height: 100vh;
   }
-  }
+}
+
 @media (max-width: 650px) {
+
   .message__title {
-    font-size: 36px;
+    font-size: 30px;
     padding-bottom: 20px;
   }
   .message__text {
@@ -414,7 +416,7 @@ button {
     padding-left: 20px;
   }
   .lamp {
-    zoom: .6;
+    zoom: .75;
   }
   .error__content {
     padding-top: 180px;
